@@ -4,18 +4,29 @@ Scripts de pós-instalação e configuração de ambiente para distribuições L
 
 ---
 
+# Funcionalidades
+
+- Atualização automática do sistema
+- Instalação automatizada de pacotes
+- Organização de diretórios
+- Instalação de IDEs
+- Instalação de banco de dados
+- Instalação de ferramentas de desenvolvimento
+- Exibição das versões instaladas
+- Scripts separados por distro
+
+---
+
 # Estrutura do Repositório
 
 ```text
 Post-Install/
 ├── Arch-Linux/
 │   ├── Scripts/
-│   ├── Packages/
 │   └── README.md
 │
 ├── Ubuntu-24.04/
 │   ├── Scripts/
-│   ├── Packages/
 │   └── README.md
 │
 └── README.md
@@ -180,15 +191,3 @@ bash nome-do-script.sh
 
 ---
 
-# Funcionalidades
-
-- Atualização automática do sistema
-- Instalação automatizada de pacotes
-- Organização de diretórios
-- Instalação de IDEs
-- Instalação de banco de dados
-- Instalação de ferramentas de desenvolvimento
-- Exibição das versões instaladas
-- Scripts separados por distro
-
----
