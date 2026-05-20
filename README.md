@@ -1,42 +1,194 @@
-# Shell-Script -- Ubuntu 24.04
+# Post-Install
 
-## Atualização do Sistema
-- `apt update`
-- `apt upgrade`
-- `apt dist-upgrade`
-- `apt autoclean`
-- `apt autoremove`
+Scripts de pós-instalação e configuração de ambiente para distribuições Linux focadas em desenvolvimento Backend, Frontend e produtividade.
 
 ---
 
-## Criação de Pastas
-- Projects/BackEnd/Java
-- Projects/FrontEnd/JavaScript
+# Estrutura do Repositório
+
+```text
+Post-Install/
+├── Arch-Linux/
+│   ├── Scripts/
+│   ├── Packages/
+│   └── README.md
+│
+├── Ubuntu-24.04/
+│   ├── Scripts/
+│   ├── Packages/
+│   └── README.md
+│
+└── README.md
+```
 
 ---
 
-## Pacotes APT Instalados
-- snapd
-- gparted
-- gimp
-- git
-- postgresql
-- default-jdk
-- nodejs (NodeSource)
-- curl
-- virtualbox
-- kitty
-- gnome-sushi
+# Objetivo
+
+Automatizar a configuração inicial do sistema operacional após uma instalação limpa.
+
+Os scripts incluem:
+
+- Atualização completa do sistema
+- Instalação de programas essenciais
+- Setup para desenvolvimento
+- Estruturação de diretórios
+- Ferramentas de produtividade
+- Ambiente Java / Node.js
+- Configuração de terminal
+- Pacotes Snap
+- Utilitários Linux
 
 ---
 
-## Pacotes Snap Instalados
-- intellij-idea-community
-- code (VS Code)
-- dbeaver-ce
-- postman
+# Distribuições Suportadas
+
+| Distribuição | Status |
+|---|---|
+| Ubuntu 24.04 | ✅ |
+| Arch Linux | ✅ |
 
 ---
 
-## Print de versões
- -  Exibição das versões instaladas ao final do script
+# Tecnologias e Ferramentas
+
+## Desenvolvimento
+
+- Java
+- Node.js
+- Git
+- PostgreSQL
+- DBeaver
+- VS Code
+- IntelliJ IDEA
+
+---
+
+## Utilitários
+
+- Kitty
+- GParted
+- GIMP
+- GNOME Sushi
+- VirtualBox
+
+---
+
+# Ubuntu 24.04
+
+Scripts focados em:
+
+- `apt`
+- `snap`
+- NodeSource
+- Ambiente Backend Java
+- Estrutura de projetos
+
+## Pacotes Instalados
+
+### APT
+
+```bash
+snapd
+gparted
+gimp
+git
+postgresql
+default-jdk
+nodejs
+curl
+virtualbox
+kitty
+gnome-sushi
+```
+
+### Snap
+
+```bash
+intellij-idea-community
+code
+dbeaver-ce
+postman
+```
+
+---
+
+# Arch Linux
+
+Scripts focados em:
+
+- `pacman`
+- `yay`
+- GNOME
+- Desenvolvimento
+- Customização
+- Drivers
+- Terminal
+
+---
+
+# Estrutura de Projetos Criada
+
+```text
+Projects/
+├── BackEnd/
+│   └── Java/
+│
+└── FrontEnd/
+    └── JavaScript/
+```
+
+---
+
+# Como Executar
+
+## Clonar Repositório
+
+```bash
+git clone https://github.com/Ricardokohler/Post-Install.git
+```
+
+---
+
+## Entrar no Diretório
+
+```bash
+cd Post-Install
+```
+
+---
+
+## Dar Permissão
+
+```bash
+chmod +x nome-do-script.sh
+```
+
+---
+
+## Executar
+
+```bash
+./nome-do-script.sh
+```
+
+ou
+
+```bash
+bash nome-do-script.sh
+```
+
+---
+
+# Funcionalidades
+
+- Atualização automática do sistema
+- Instalação automatizada de pacotes
+- Organização de diretórios
+- Instalação de IDEs
+- Instalação de banco de dados
+- Instalação de ferramentas de desenvolvimento
+- Exibição das versões instaladas
+- Scripts separados por distro
+
+---
